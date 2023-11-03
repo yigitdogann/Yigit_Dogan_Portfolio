@@ -3,8 +3,23 @@
   padding: 0px;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+}
+
 .header {
-  border: solid;
+  border: none;
   height: 40px;
   width: 100%;
+  text-align: center;
+  background-color: #60727d;
+}
+
+.button {
+  border: solid;
+  border-width: 0px;
+  font-size: 20px;
+  font-family: monospace;
+  margin: 8px 30px;
 }
