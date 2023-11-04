@@ -100,7 +100,12 @@ nav ul li:hover {
   width: 60vw;
   position: absolute;
   margin: 38px auto;
-  background: rgba(0, 0, 0, 0.95);
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(80, 93, 106, 0),
+    rgba(80, 93, 106, 0.8)
+  );
   color: white;
   line-height: 1.7;
   padding: 35px;
@@ -141,7 +146,7 @@ article {
   border: 1px solid white;
   border-radius: 5px;
   color: black;
-  background: white;
+  background: #efefef;
   margin: 25px 0;
   padding: 5px 0;
 }
