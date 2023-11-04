@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("background.png") center/cover no-repeat;
   color: white;
   min-height: 100vh;
   display: flex;
@@ -142,6 +143,7 @@ article {
   color: black;
   background: white;
   margin: 25px 0;
+  padding: 5px 0;
 }
 
 #about h3 {
@@ -156,5 +158,18 @@ article {
   }
   nav ul a {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+  }
+  .page {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .page {
+    width: 80vw;
   }
 }
