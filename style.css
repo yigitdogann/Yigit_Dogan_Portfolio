@@ -85,7 +85,7 @@ nav ul li {
   display: block;
   padding: 12px 0;
   width: 120px;
-  border-right: 1px solid white;
+  border-right: 0px solid white;
   transition: background 0.5s ease;
 }
 nav ul li:last-child {
@@ -95,14 +95,66 @@ nav ul li:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.page {
+  width: 60vw;
+  position: absolute;
+  margin: 38px auto;
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+  line-height: 1.7;
+  padding: 35px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+.page span {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+}
+.page .close-btn {
+  cursor: pointer;
+}
+.page .title {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: solid 2px white;
+  border-radius: 0px 0px 12px;
+  width: 120px;
+  margin: 20px 0;
+}
+.page p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+article {
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  margin: 25px 0;
+}
+
+#about h3 {
+  text-align: center;
+}
 /*******************/
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
   nav ul li {
     width: 70px;
     padding: 7px 0;
   }
-  nav ul a{
+  nav ul a {
     font-size: 14px;
   }
 }
