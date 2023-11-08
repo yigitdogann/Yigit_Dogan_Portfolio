@@ -25,7 +25,6 @@ for (let i = 0; i < allBtns.length; i++) {
 /*
 //changing languages.
 document.querySelector(".lang").addEventListener("click",function(){
-  document.querySelector(".text p").textContent="Selam, sizleri burada görmek huzur verici! \n Ben Yiğit ve burası benim portfolyom. Bilgi almak için sitede gezeleyebilirsiniz :)";
-  document.querySelector("#lang").textContent="english";
+  document.querySelector(".text p").textContent="";
 });
 */
